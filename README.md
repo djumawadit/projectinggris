@@ -1,16 +1,54 @@
-# React + Vite
+# Project Ingris
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplikasi belajar bahasa Inggris interaktif berbasis web (React + Vite)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Deskripsi
 
-## React Compiler
+Project Ingris adalah aplikasi web interaktif untuk belajar bahasa Inggris yang dirancang agar mudah digunakan, responsif, dan menarik.  
+Proyek ini menggunakan **React** sebagai framework frontend dan **Vite** sebagai build tool.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fitur utama yang sudah atau akan disertakan:  
+- Halaman utama dengan tampilan modern  
+- Modul pelajaran (vocabulary, grammar, dsb)  
+- Latihan / kuis interaktif  
+- Sistem manajemen konten pelajaran  
+- Responsif di perangkat mobile & desktop  
+- Integrasi navigasi dan animasi ringan  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Teknologi & Stack
+
+Berikut teknologi yang digunakan:
+
+| Layer | Teknologi |
+|---|---|
+| Frontend | React |
+| Bundler / Build | Vite |
+| Styling | Tailwind CSS (jika digunakan) / CSS Modules / SCSS |
+| Linter | ESLint / konfigurasi ESLint bawaan |
+| Manajemen Paket | npm / yarn |
+| Hosting / Deployment | (misalnya Netlify, Vercel, GitHub Pages, dsb) |
+
+---
+
+## 🚀 Cara Menjalankan Lokal
+
+Berikut langkah-langkah menjalankan proyek di komputer lokalmu:
+
+```bash
+# clone repository
+git clone https://github.com/djumawadit/projectinggris.git
+
+# masuk ke folder project
+cd projectinggris
+
+# install dependencies
+npm install
+# atau jika kamu menggunakan yarn:
+# yarn install
+
+# jalankan mode development
+npm run dev
